@@ -1,0 +1,46 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+#main{
+    display: grid;
+    justify-items:center;
+    height:100vh;
+    width:100vw;
+    align-content:center;
+    font-size:larger;
+    background: url("../assets/images/bg2.avif") fixed no-repeat ;
+    background-size:100% 100%;
+    margin:0px;
+    padding:0px;
+}
+#logo{
+    justify-items: center;
+    margin:0px;
+    padding:0px;
+}
+#name{
+    margin:0px;
+}
+#title{
+    justify-items: center;
+}
+#logo_image{
+    width:200px;
+    margin:0px;
+    padding:0px;
+}
+.btn{
+    border-radius: 8px;
+    width:100px;
+    height:50px;    
+    font-size: medium;
+    background-color:pink;
+    color:black;
+    box-shadow: 5px 5px 20px gray;
+}
+#login{
+    margin-right:10px;
+}
